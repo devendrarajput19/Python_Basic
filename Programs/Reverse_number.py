@@ -11,3 +11,12 @@ while num != 0:
 
 print(f"Original number is {orginal}")
 print(f"Reversed number is {reversed}")
+
+
+#using string slicing
+
+num = int(input("Enter a number: "))
+
+reversed_num = int(str(num)[::-1])
+print(f"Original number is {num}")
+print(f"Reversed number is {reversed_num}")
