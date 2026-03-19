@@ -13,20 +13,20 @@
 
 #2 - Using a Loop (Iterative):
 
-numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
-largest = numbers[0]
+# numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
+# largest = numbers[0]
 
-for num in numbers:
-    if num > largest:
-        largest = num
+# for num in numbers:
+#     if num > largest:
+#         largest = num
 
-print(f"List is {numbers}")
-print(f"Largest : {largest}")
+# print(f"List is {numbers}")
+# print(f"Largest : {largest}")
 
 #3 - Using sorted() function
 
-# numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
+numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
 
-# largest = sorted(numbers)[-1]  #First sort the number in Ascending and then -1 means Last element of the list, -2 is 2nd last element
-# print(f"List    : {numbers}")
-# print(f"Largest : {largest}")
+largest = sorted(numbers)[-1]  #First sort the number in Ascending and then -1 means Last element of the list, -2 is 2nd last element
+print(f"List    : {numbers}")
+print(f"Largest : {largest}")
