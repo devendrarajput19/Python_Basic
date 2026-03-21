@@ -23,4 +23,12 @@
 # print(f"Orginal List is {numbers}")
 # print(f"Unique List is {unique_number}")
 
+# 3 - Using List Comprehension:
 
+# numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
+
+# unique_numbers = []
+# [unique_numbers.append(num) for num in numbers if num not in unique_numbers]
+
+# print(f"Original List is {numbers}")
+# print(f"Unique number is {unique_numbers}")
