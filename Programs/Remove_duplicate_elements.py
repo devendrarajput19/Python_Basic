@@ -32,3 +32,17 @@
 
 # print(f"Original List is {numbers}")
 # print(f"Unique number is {unique_numbers}")
+
+# 4 -  Remove duplicate list from string
+
+#input gets an item and .split() used to add items as list with ,
+#ex : ["Apple","Banana", "Mango", "Apple"] - .split convert this
+#Dictionary keys are always unique (no duplicates allowed)
+#Convert it in Dict and remove duplicate {'apple': None, 'banana': None, 'mango': None}
+#list(dict(items)) - converts dict to list
+
+items = input("Enter items separated by spaces: ").split()
+unique_items = list(dict.fromkeys(items))   # Creates a dictionary using list items as keys
+
+print(f"Original List : {items}")
+print(f"Unique List   : {unique_items}")
