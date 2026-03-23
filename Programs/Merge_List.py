@@ -18,6 +18,9 @@ list2 = list(map(int, input("Enter 2nd list with space: ").split()))
 merged = list1.copy()  
 list1.extend(list2)  #merged 2nd list to 1st list
 
+for item in list2:
+    list1.append(item)   #using append function
+
 print(f"1st List = {list1}")
 print(f"2nd List = {list2}")
 print(f"Merged list = {list1}")
