@@ -25,3 +25,4 @@ n = int(input("Enter any number = "))
 fib_List = [fibonacci(i) for i in range(5)]
 
 print(f"Fibonacci series = {fib_List}")
+print("Fibonacci series = ", fib_List)
