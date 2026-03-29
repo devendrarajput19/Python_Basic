@@ -1,6 +1,6 @@
 class Car:
-    @staticmethod
-    def start():
+    @staticmethod  #Static method - for every instance/object, method is created only once. It is not created again and again.
+    def start():   #They cant access class attributes.
         print("Car Started...")
     
     @staticmethod
