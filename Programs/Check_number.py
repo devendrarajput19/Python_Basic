@@ -51,6 +51,6 @@ for i in range(1, n):
         total += i
 
 if total == n:
-    print(f"{n} is a Perfect Number")
+    print(f"{n} is a Perfect number")
 else:
     print(f"{n} is not a Perfect Number")
