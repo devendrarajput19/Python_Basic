@@ -17,3 +17,10 @@ for word in words:
 
 print(f"Words = {words}")
 print(f"Dictionary = {dictionary}")
+
+# 3 - Check number of spaces
+
+string = input("Enter a string = ")
+count = string.count(" ")
+
+print(f"Number of spaces in string = {count}")
