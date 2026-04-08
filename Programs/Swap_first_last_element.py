@@ -9,3 +9,8 @@ print(f"Swap list = {my_list}")
 
 # Python allows simultaneous swap in one line: a, b = b, a
 
+# 2 - Print ASCII characters
+
+print("=== Standard ASCII (0 - 127) ===")
+for i in range(128):
+    print(f"ASCII {i} : {chr(i)}")
