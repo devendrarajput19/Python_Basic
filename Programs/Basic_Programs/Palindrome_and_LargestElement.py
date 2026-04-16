@@ -23,3 +23,23 @@ if original == reversed_num:
     print(f"{original} is Palindrome...")
 else:
     print(f"{original} is not Palindrome...")
+
+
+# Largest Element using built-in function max()
+
+numbers = list(map(int, input("Enter list numbers with spaces = ").split()))
+
+largest = max(numbers)
+print(f"Largest number = {largest}")
+
+# Using Loop
+
+numbers = list(map(int, input("Enter list numbers with spaces = ").split()))
+
+largest = numbers[0]
+
+for num in numbers:
+    if num > largest:
+        largest = num
+
+print(f"{largest} is Largest number...")
