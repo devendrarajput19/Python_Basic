@@ -10,3 +10,13 @@ for digit in num:
 print(f"Number = {num}")
 print(f"Digits = {' ,'.join(num)}")
 print(f"Sum of Squares     : {sum_of_squares}")
+
+# Using List comprehension
+
+num = input("Enter a number = ")
+
+sum_of_squares = sum([int(d) ** 2 for d in num])
+
+print(f"Number = {num}")
+print(f"Digits = {' ,'.join(num)}")
+print(f"Sum of Squares     : {sum_of_squares}")
